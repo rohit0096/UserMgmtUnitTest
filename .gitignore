@@ -1,0 +1,36 @@
+# .NET Core specific
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+*.log
+*.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.project
+.DS_Store
+
+# Avoid ignoring .gitignore or .gitattributes files
+!.gitignore
+!.gitattributes
+
+# Logs
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+
+# Environment variables
+.env
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Temporary files
+tmp/
+temp/
